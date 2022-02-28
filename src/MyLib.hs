@@ -2,8 +2,6 @@
 module MyLib where
 import Data.Traversable (for)
 
-square :: Int -> Int
-square x = x * x
 
 type Lit = String
 
