@@ -2,7 +2,6 @@
 module MyLib where
 import Data.Traversable (for)
 
-
 type Lit = String
 
 data Formula = Var Lit | 

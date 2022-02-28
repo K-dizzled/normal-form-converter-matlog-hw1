@@ -1,16 +1,42 @@
 Test suite lab01-test: RUNNING...
-My test group
-  test nnf 1: OK
-  test nnf 2: OK
-  test cnf 1: OK
-  test cnf 2: OK
-  test dnf 1: OK
-  test:       FAIL
-    test/MyLibTest.hs:20:
-    expected: Var "a"
-     but got: Var "a" :&: (Var "b" :&: Not (Var "c"))
-    Use -p '$0=="My test group.test"' to rerun this test only.
+Form transformations tests
+  NNF convertion tests
+    test nnf 1:  OK
+    test nnf 2:  OK
+    test nnf 3:  OK
+    test nnf 4:  OK
+    test nnf 5:  OK
+    test nnf 6:  OK
+    test nnf 7:  OK
+    test nnf 8:  OK
+    test nnf 9:  OK
+    test nnf 10: OK
+    test nnf 11: OK
+  CNF convertion tests
+    test сnf 1:  OK
+    test сnf 2:  OK
+    test сnf 3:  OK
+    test сnf 4:  OK
+    test сnf 5:  OK
+    test сnf 6:  OK
+    test сnf 7:  OK
+    test сnf 8:  OK
+    test сnf 9:  OK
+    test сnf 10: OK
+    test сnf 11: OK
+  DNF convertion tests
+    test dnf 1:  OK
+    test dnf 2:  OK
+    test dnf 3:  OK
+    test dnf 4:  OK
+    test dnf 5:  OK
+    test dnf 6:  OK
+    test dnf 7:  OK
+    test dnf 8:  OK
+    test dnf 9:  OK
+    test dnf 10: OK
+    test dnf 11: OK
 
-1 out of 6 tests failed (0.00s)
-Test suite lab01-test: FAIL
+All 33 tests passed (0.00s)
+Test suite lab01-test: PASS
 Test suite logged to: /Users/andrei/Documents/MCS Lectures/Матлог/lab01/dist-newstyle/build/x86_64-osx/ghc-8.10.7/lab01-0.1.0.0/t/lab01-test/test/lab01-0.1.0.0-lab01-test.log
