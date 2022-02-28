@@ -1,0 +1,16 @@
+Test suite lab01-test: RUNNING...
+My test group
+  test nnf 1: OK
+  test nnf 2: OK
+  test cnf 1: OK
+  test cnf 2: OK
+  test dnf 1: OK
+  test:       FAIL
+    test/MyLibTest.hs:20:
+    expected: Var "a"
+     but got: Var "a" :&: (Var "b" :&: Not (Var "c"))
+    Use -p '$0=="My test group.test"' to rerun this test only.
+
+1 out of 6 tests failed (0.00s)
+Test suite lab01-test: FAIL
+Test suite logged to: /Users/andrei/Documents/MCS Lectures/Матлог/lab01/dist-newstyle/build/x86_64-osx/ghc-8.10.7/lab01-0.1.0.0/t/lab01-test/test/lab01-0.1.0.0-lab01-test.log
